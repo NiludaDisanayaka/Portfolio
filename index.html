@@ -5,11 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Niluda | Software Developer</title>
 <meta name="description" content="Niluda is a university student and software developer working across computer science, physics and chemistry. See projects, certificates and how to get in touch.">
-<meta name="theme-color" content="#211C35">
+<meta name="theme-color" content="#08100B">
 <meta property="og:title" content="Niluda | Software Developer">
 <meta property="og:description" content="Projects, certificates and contact details for Niluda, a student developer working across computer science, physics and chemistry.">
 <meta property="og:type" content="website">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Ccircle cx='12' cy='12' r='9' fill='none' stroke='%23A88BFF' stroke-width='2'/%3E%3Cpath d='M12 3v3M12 18v3M3 12h3M18 12h3' stroke='%235BC0A5' stroke-width='2'/%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Ccircle cx='12' cy='12' r='9' fill='none' stroke='%234ADE80' stroke-width='2'/%3E%3Cpath d='M12 3v3M12 18v3M3 12h3M18 12h3' stroke='%232EE59D' stroke-width='2'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -19,20 +19,20 @@
 </script>
 <style>
   :root{
-    --navy: #211C35;
-    --navy-2: #30284A;
-    --paper: #F7F4FC;
-    --paper-2: #ECE7F5;
-    --ink: #262238;
-    --ink-soft: #5A526F;
-    --violet: #A88BFF;
-    --violet-strong: #8750E7;
-    --violet-ink: #6A3AD0;
-    --line-soft: rgba(168,139,255,0.32);
-    --mint: #5BC0A5;
-    --accent-text: #1F7A62;
+    --navy: #08100B;
+    --navy-2: #101C15;
+    --paper: #F3F8F4;
+    --paper-2: #E3EEE6;
+    --ink: #0E1711;
+    --ink-soft: #46574D;
+    --violet: #4ADE80;
+    --violet-strong: #15803D;
+    --violet-ink: #15803D;
+    --line-soft: rgba(74,222,128,0.32);
+    --mint: #2EE59D;
+    --accent-text: #11693F;
     --card-bg: #FFFFFF;
-    --card-line: rgba(38,34,56,0.14);
+    --card-line: rgba(14,23,17,0.14);
     --white: #FFFFFF;
     --font-display: 'Space Grotesk', 'Segoe UI', sans-serif;
     --font-body: 'IBM Plex Sans', 'Segoe UI', sans-serif;
@@ -46,25 +46,25 @@
   }
   @media (prefers-color-scheme: dark){
     :root:not([data-theme="light"]){
-      --paper: #171426;
-      --paper-2: #241D3A;
-      --ink: #F1EEFA;
-      --ink-soft: #B9B1D0;
-      --violet-ink: #A88BFF;
-      --accent-text: #5BC0A5;
-      --card-bg: #1F1934;
-      --card-line: rgba(168,139,255,0.28);
+      --paper: #070B08;
+      --paper-2: #101A14;
+      --ink: #E9F5EC;
+      --ink-soft: #A3B8AA;
+      --violet-ink: #4ADE80;
+      --accent-text: #2EE59D;
+      --card-bg: #0E1611;
+      --card-line: rgba(74,222,128,0.28);
     }
   }
   :root[data-theme="dark"]{
-    --paper: #171426;
-    --paper-2: #241D3A;
-    --ink: #F1EEFA;
-    --ink-soft: #B9B1D0;
-    --violet-ink: #A88BFF;
-    --accent-text: #5BC0A5;
-    --card-bg: #1F1934;
-    --card-line: rgba(168,139,255,0.28);
+    --paper: #070B08;
+    --paper-2: #101A14;
+    --ink: #E9F5EC;
+    --ink-soft: #A3B8AA;
+    --violet-ink: #4ADE80;
+    --accent-text: #2EE59D;
+    --card-bg: #0E1611;
+    --card-line: rgba(74,222,128,0.28);
   }
 
   *,*::before,*::after{ box-sizing: inherit; }
@@ -155,7 +155,7 @@
   }
   .nav::before{
     content:''; position:absolute; inset:0; z-index:-1;
-    background: rgba(33,28,53,0.86); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+    background: rgba(8,16,11,0.86); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
     border-bottom: 1px solid var(--line-soft);
     opacity:0; transition: opacity .25s ease;
   }
@@ -211,7 +211,7 @@
   .spot{ position:relative; isolation:isolate; overflow:hidden; }
   .spot::before{
     content:''; position:absolute; inset:0; z-index:-1; pointer-events:none; opacity:0; transition: opacity .3s ease;
-    background: radial-gradient(280px circle at var(--mx, 50%) var(--my, 50%), rgba(168,139,255,.22), transparent 62%);
+    background: radial-gradient(280px circle at var(--mx, 50%) var(--my, 50%), rgba(74,222,128,.22), transparent 62%);
   }
   .spot:hover::before{ opacity:1; }
 
@@ -224,7 +224,7 @@
   .btn::after{ content:''; position:absolute; top:0; bottom:0; width:40%; left:-60%; background: linear-gradient(100deg, transparent, rgba(255,255,255,.28), transparent); transform: skewX(-18deg); transition: left .6s var(--ease); }
   .btn:hover::after{ left:130%; }
   .btn-primary{ background: var(--violet-strong); color:#fff; }
-  .btn-primary:hover{ background:#9a66f0; }
+  .btn-primary:hover{ background:#16A34A; }
   .btn-ghost{ border-color: rgba(255,255,255,.4); color:#fff; }
   .btn-ghost:hover{ border-color:#fff; background: rgba(255,255,255,.06); }
   .btn-ghost.on-paper{ border-color: var(--ink); color: var(--ink); }
@@ -241,8 +241,8 @@
       var(--navy);
   }
   .hero::before{ content:''; position:absolute; inset:0; pointer-events:none; background:
-    radial-gradient(55% 55% at 82% 28%, rgba(91,192,165,0.18), transparent 70%),
-    radial-gradient(45% 50% at 12% 90%, rgba(135,80,231,0.22), transparent 70%); }
+    radial-gradient(55% 55% at 82% 28%, rgba(46,229,157,0.18), transparent 70%),
+    radial-gradient(45% 50% at 12% 90%, rgba(34,197,94,0.22), transparent 70%); }
   #net{ position:absolute; inset:0; width:100%; height:100%; z-index:0; }
   .hero-grid{ position:relative; z-index:1; max-width: var(--max); margin:0 auto; width:100%; display:grid; grid-template-columns: 1.15fr .85fr; gap:56px; align-items:center; }
   .hero-eyebrow{ font-family: var(--font-mono); font-size:.9rem; color: var(--violet); margin-bottom:20px; min-height:1.6em; }
@@ -266,7 +266,7 @@
   .photo-frame{ position:relative; margin:0; border:1px solid var(--line-soft); aspect-ratio: 4/5; background: var(--navy-2); overflow:hidden; }
   .photo-frame img{ width:100%; height:100%; object-fit:cover; transition: transform 1.2s var(--ease); }
   .photo-frame:hover img{ transform: scale(1.05); }
-  .photo-frame figcaption{ position:absolute; left:0; right:0; bottom:0; font-family: var(--font-mono); font-size:.76rem; color: var(--violet); padding: 9px 14px; background: rgba(33,28,53,.78); border-top:1px solid var(--line-soft); }
+  .photo-frame figcaption{ position:absolute; left:0; right:0; bottom:0; font-family: var(--font-mono); font-size:.76rem; color: var(--violet); padding: 9px 14px; background: rgba(8,16,11,.78); border-top:1px solid var(--line-soft); }
   .photo-frame.no-image::after{ content: attr(data-placeholder); position:absolute; inset:12px; border:1px dashed var(--line-soft); display:flex; align-items:center; justify-content:center; text-align:center; padding:16px; font-family: var(--font-mono); font-size:.78rem; color: rgba(255,255,255,.6); }
   .photo-frame.no-image img{ display:none; }
   .scroll-cue{ position:absolute; z-index:1; left:50%; bottom:22px; width:22px; height:36px; margin-left:-11px; border:1.5px solid var(--line-soft); border-radius:12px; }
@@ -297,13 +297,13 @@
   .skill-col h3 svg{ width:22px; height:22px; stroke: var(--mint); }
   .skill-col ul{ list-style:none; margin:0; padding:0; display:flex; flex-wrap:wrap; gap:10px; }
   .skill-col li{ font-family: var(--font-mono); font-size:.84rem; color: rgba(255,255,255,.9); border:1px solid var(--line-soft); border-radius:999px; padding:6px 14px; transition: border-color .2s ease, background .2s ease, transform .2s var(--ease); }
-  .skill-col li:hover{ border-color: var(--mint); background: rgba(91,192,165,.12); transform: translateY(-2px); }
+  .skill-col li:hover{ border-color: var(--mint); background: rgba(46,229,157,.12); transform: translateY(-2px); }
   @media (max-width: 860px){ .skill-grid{ grid-template-columns:1fr; } }
 
   /* ---------- work ---------- */
   .project{ display:grid; grid-template-columns: .95fr 1.05fr; gap:48px; padding:44px 0; border-top:1px solid var(--card-line); align-items:center; }
   .project:last-of-type{ border-bottom:1px solid var(--card-line); }
-  .project-media{ position:relative; margin:0; aspect-ratio:16/11; background: var(--paper-2); border:1px solid var(--card-line); border-radius:14px; overflow:hidden; transition: transform .25s var(--ease), box-shadow .3s ease; transform-style: preserve-3d; box-shadow: 0 18px 40px -22px rgba(33,28,53,.45); }
+  .project-media{ position:relative; margin:0; aspect-ratio:16/11; background: var(--paper-2); border:1px solid var(--card-line); border-radius:14px; overflow:hidden; transition: transform .25s var(--ease), box-shadow .3s ease; transform-style: preserve-3d; box-shadow: 0 18px 40px -22px rgba(8,16,11,.45); }
   .project-media img{ width:100%; height:100%; object-fit:cover; }
   .project-media.no-image::after{ content: attr(data-placeholder); position:absolute; inset:0; display:flex; align-items:center; justify-content:center; text-align:center; padding:20px; font-family: var(--font-mono); font-size:.78rem; color: var(--ink-soft); background: repeating-linear-gradient(45deg, transparent, transparent 9px, var(--card-line) 9px, var(--card-line) 10px); }
   .project-media.no-image img{ display:none; }
@@ -325,7 +325,7 @@
   .tl-item{ position:relative; padding-bottom:40px; }
   .tl-item:last-child{ padding-bottom:0; }
   .tl-item::before{ content:''; position:absolute; left:-34px; top:6px; width:16px; height:16px; border-radius:50%; background: var(--navy); border:2px solid var(--mint); }
-  .tl-item:first-child::before{ background: var(--mint); box-shadow: 0 0 0 6px rgba(91,192,165,.2); }
+  .tl-item:first-child::before{ background: var(--mint); box-shadow: 0 0 0 6px rgba(46,229,157,.2); }
   .tl-date{ font-family: var(--font-mono); font-size:.8rem; color: var(--violet); }
   .tl-item h3{ font-size:1.2rem; margin:6px 0 2px; }
   .tl-org{ color: rgba(255,255,255,.75); font-size:.95rem; }
@@ -339,7 +339,7 @@
   .filter[aria-pressed="true"]{ background: var(--violet-strong); border-color: var(--violet-strong); color:#fff; }
   .cert-grid{ display:grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap:22px; }
   .cert-card{ text-align:left; padding:0; cursor:pointer; background: var(--card-bg); border:1px solid var(--card-line); border-radius:16px; transition: transform .3s var(--ease), border-color .3s ease, box-shadow .3s ease; display:flex; flex-direction:column; }
-  .cert-card:hover{ transform: translateY(-6px); border-color: var(--violet); box-shadow: 0 22px 40px -24px rgba(106,58,208,.55); }
+  .cert-card:hover{ transform: translateY(-6px); border-color: var(--violet); box-shadow: 0 22px 40px -24px rgba(34,197,94,.55); }
   .cert-card[hidden]{ display:none; }
   .cert-art{ aspect-ratio: 16/11; display:grid; place-items:center; background: linear-gradient(135deg, var(--navy), var(--navy-2)); color: var(--violet); overflow:hidden; }
   .cert-art svg{ width:78%; height:auto; }
@@ -350,7 +350,7 @@
   .cert-meta{ margin-top:10px; display:flex; justify-content:space-between; align-items:center; font-family: var(--font-mono); font-size:.76rem; color: var(--accent-text); }
   .cert-note{ margin-top:28px; color: var(--ink-soft); font-size:.92rem; }
 
-  .modal{ position:fixed; inset:0; z-index: 9000; display:none; align-items:center; justify-content:center; padding:24px; background: rgba(15,12,26,.78); backdrop-filter: blur(6px); }
+  .modal{ position:fixed; inset:0; z-index: 9000; display:none; align-items:center; justify-content:center; padding:24px; background: rgba(4,8,5,.78); backdrop-filter: blur(6px); }
   .modal.open{ display:flex; animation: fadein .25s ease forwards; opacity:0; }
   .modal-card{ position:relative; width:min(720px, 100%); max-height: 90vh; overflow:auto; background: var(--card-bg); color: var(--ink); border:1px solid var(--card-line); border-radius:18px; }
   .modal-card .cert-art{ aspect-ratio: 16/9; }
@@ -358,7 +358,7 @@
   .modal-text h3{ font-size:1.4rem; }
   .modal-text .cert-issuer{ margin-top:4px; }
   .modal-text .btn{ margin-top:20px; }
-  .modal-close{ position:absolute; top:12px; right:12px; z-index:2; background: rgba(15,12,26,.6); color:#fff; border-color: var(--line-soft); }
+  .modal-close{ position:absolute; top:12px; right:12px; z-index:2; background: rgba(4,8,5,.6); color:#fff; border-color: var(--line-soft); }
 
   /* ---------- contact ---------- */
   .contact-inner{ display:grid; grid-template-columns: 1fr 1fr; gap:64px; align-items:start; }
@@ -387,7 +387,7 @@
   .scale-bar span:nth-child(odd){ background: var(--line-soft); }
   .to-top{ position:fixed; right: calc(20px + env(safe-area-inset-right,0px)); bottom: calc(20px + env(safe-area-inset-bottom,0px)); z-index:45; width:46px; height:46px; border-radius:50%; background: var(--violet-strong); color:#fff; border:none; cursor:pointer; display:grid; place-items:center; opacity:0; transform: translateY(16px); pointer-events:none; transition: opacity .3s ease, transform .3s var(--ease), background .2s ease; box-shadow: 0 10px 24px -10px rgba(0,0,0,.6); }
   .to-top.show{ opacity:1; transform:none; pointer-events:auto; }
-  .to-top:hover{ background:#9a66f0; }
+  .to-top:hover{ background:#16A34A; }
   .to-top svg{ width:20px; height:20px; }
 </style>
 </head>
@@ -558,7 +558,7 @@
           <div class="project-body">
             <span class="project-fig">Fig. 1</span>
             <h3>Point-of-Sale System</h3>
-            <p>A complete POS system built in C# with Windows Forms, backed by SQL Server LocalDB. Every form was redesigned around a single visual language of dark navy, white and rounded cards, and rebuilt piece by piece as schema mismatches and query bugs turned up along the way.</p>
+            <p>A complete POS system built in C# with Windows Forms, backed by SQL Server LocalDB. Every form was redesigned around a single visual language of black, green and rounded cards, and rebuilt piece by piece as schema mismatches and query bugs turned up along the way.</p>
             <div class="tag-row"><span class="tag">C#</span><span class="tag">Windows Forms</span><span class="tag">SQL Server</span><span class="tag">LocalDB</span></div>
             <div class="project-links"><a href="#">View code</a><a href="#">Screenshots</a></div>
           </div>
@@ -839,17 +839,17 @@
       for (let j = i + 1; j < nodes.length; j++){
         const b = nodes[j], dx = a.x - b.x, dy = a.y - b.y, d = Math.hypot(dx, dy);
         if (d < 125){
-          ctx.strokeStyle = 'rgba(168,139,255,' + (0.28 * (1 - d / 125)) + ')';
+          ctx.strokeStyle = 'rgba(74,222,128,' + (0.28 * (1 - d / 125)) + ')';
           ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(a.x, a.y); ctx.lineTo(b.x, b.y); ctx.stroke();
         }
       }
       const md = Math.hypot(a.x - pm.x, a.y - pm.y);
       if (md < 170){
-        ctx.strokeStyle = 'rgba(91,192,165,' + (0.7 * (1 - md / 170)) + ')';
+        ctx.strokeStyle = 'rgba(46,229,157,' + (0.7 * (1 - md / 170)) + ')';
         ctx.lineWidth = 1.2; ctx.beginPath(); ctx.moveTo(a.x, a.y); ctx.lineTo(pm.x, pm.y); ctx.stroke();
         if (!reduced) { a.x += (pm.x - a.x) * 0.004; a.y += (pm.y - a.y) * 0.004; }
       }
-      ctx.fillStyle = md < 170 ? '#5BC0A5' : 'rgba(168,139,255,.85)';
+      ctx.fillStyle = md < 170 ? '#2EE59D' : 'rgba(74,222,128,.85)';
       ctx.beginPath(); ctx.arc(a.x, a.y, a.r, 0, 6.2832); ctx.fill();
     }
   }
@@ -961,9 +961,9 @@
       '<rect x="20" y="20" width="280" height="180" rx="2" stroke-width=".8" opacity=".35"/>' +
       '<path d="M90 62h140M115 82h90" stroke-width="2" stroke-linecap="round" opacity=".8"/>' +
       '<path d="M70 120h60M190 120h60M70 134h40M210 134h40" stroke-width="1.2" stroke-linecap="round" opacity=".4"/>' +
-      '<circle cx="160" cy="150" r="22" stroke="#5BC0A5" stroke-width="1.6"/>' +
-      '<circle cx="160" cy="150" r="14" stroke="#5BC0A5" stroke-width="1" stroke-dasharray="2 3"/>' +
-      '<path d="M150 170l-6 22 16-8 16 8-6-22" stroke="#5BC0A5" stroke-width="1.4" stroke-linejoin="round"/></svg>';
+      '<circle cx="160" cy="150" r="22" stroke="#2EE59D" stroke-width="1.6"/>' +
+      '<circle cx="160" cy="150" r="14" stroke="#2EE59D" stroke-width="1" stroke-dasharray="2 3"/>' +
+      '<path d="M150 170l-6 22 16-8 16 8-6-22" stroke="#2EE59D" stroke-width="1.4" stroke-linejoin="round"/></svg>';
   }
   CERTS.forEach((c, i) => {
     const b = document.createElement('button');
